@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<android.opengl.GLSurfaceView android:id="@+id/glsurfaceview"
+       	android:layout_width="fill_parent"
+		android:layout_height="450px"/>
+    
+	<com.nbpcorp.mobilead.sdk.MobileAdView 
+		xmlns:mobilead="http://schemas.android.com/apk/res/com.mobilead.cube3dadpost1"
+		android:id="@+id/adview1"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		mobilead:channel_id="mandroid_a0d6c63b341a4051b13af1a76af0f38e"
+		mobilead:test="false"/>
+				   
+</RelativeLayout>
+
+

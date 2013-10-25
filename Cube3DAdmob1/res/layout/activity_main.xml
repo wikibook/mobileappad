@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<android.opengl.GLSurfaceView android:id="@+id/glsurfaceview"
+       	android:layout_width="fill_parent"
+		android:layout_height="450px"/>
+	
+	<com.google.ads.AdView android:id="@+id/adView"
+		xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"    	      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="a1510b12aa73ce6"
+        ads:adSize="BANNER"    
+        android:visibility="visible"                     
+        ads:loadAdOnCreate="true"/>
+		
+</RelativeLayout>
+
+
